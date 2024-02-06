@@ -1,0 +1,39 @@
+.down{
+    background-color: black;
+    display: flex;
+   
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+.down .list ul li{
+    color: rgb(177, 173, 173);
+    list-style-type: none;
+    padding-top: 20px;
+}
+.down .list ul li .button{
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 20px;
+
+}
+.down .list ul li .button:hover{
+    transform: scale(1.1);
+    background-color: red;
+    border: none;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+.logo2{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: red;
+    margin-left: 20px;
+
+}

@@ -1,0 +1,52 @@
+.header {
+    /* margin: 0 2.5rem; */
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 0.1px solid rgb(255, 255, 255 ,0.9);
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin-left: 90px ;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    margin-left: 20px;
+
+}
+.search{
+    height: 30px;
+    margin-right: 30px;
+    padding-left: 16PX;
+    border-radius: 3px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-weight: 400;
+}
